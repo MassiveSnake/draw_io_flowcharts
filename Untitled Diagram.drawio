@@ -1,9 +1,118 @@
-<mxfile host="app.diagrams.net" modified="2023-11-03T09:38:01.157Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" version="22.0.8" etag="us-juAMs6xr0KCuVLXuH" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-03T10:29:42.622Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="_8hP4GrsMcwLzWTG2aEQ" version="22.0.8" type="github">
   <diagram name="Page-1" id="pp-NiHuE6Q0v9ZnyZoWW">
-    <mxGraphModel>
+    <mxGraphModel dx="1386" dy="1920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" width="335" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-1" value="Injury/Illness" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="433" y="452" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-2" value="OII Monthly KPI" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="433" y="10" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-3" value="OII by Month" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="120" y="110" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-4" value="OII by Day" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="120" y="332" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-6" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Days Away per Record&lt;br&gt;&lt;/font&gt;" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="R4MgnWe8AKQlbUeH1rV9-12" target="R4MgnWe8AKQlbUeH1rV9-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="500" as="sourcePoint" />
+            <mxPoint x="200" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="195" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-7" value="Days Away per Day" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Comic Sans MS;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="R4MgnWe8AKQlbUeH1rV9-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="290" as="sourcePoint" />
+            <mxPoint x="190" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-8" value="Days Away per Month" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Comic Sans MS;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="R4MgnWe8AKQlbUeH1rV9-17" target="R4MgnWe8AKQlbUeH1rV9-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="75" as="sourcePoint" />
+            <mxPoint x="390" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="55" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-9" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="R4MgnWe8AKQlbUeH1rV9-21" target="R4MgnWe8AKQlbUeH1rV9-22">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="510" y="430" as="sourcePoint" />
+            <mxPoint x="508" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-24" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Relational fields&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R4MgnWe8AKQlbUeH1rV9-9">
+          <mxGeometry x="0.0385" y="-6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-10" value="Days Away objects only possess Days Away Data. This data is stored in another object so that Days Away added to a Injury/Illness record do not necessarily belong to the month of the incident." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="560" width="335" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-11" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Many&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="165" y="432" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-12" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;One&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="373" y="487" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-14" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Many&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="160" y="312" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-15" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;One&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-16" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;One&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="376" y="45" width="57" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-17" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;One&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="160" y="90" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-21" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Many&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="478" y="432" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-22" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;One&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="478" y="100" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-25" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Child: Parent&amp;nbsp;&lt;/font&gt;" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=arrow;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="R4MgnWe8AKQlbUeH1rV9-1" target="R4MgnWe8AKQlbUeH1rV9-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="380" as="sourcePoint" />
+            <mxPoint x="650" y="497" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-26" value="SK Event" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="677" y="452" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-27" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;HFM Hours Worked&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="128.5" y="-100" width="168" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R4MgnWe8AKQlbUeH1rV9-27" target="R4MgnWe8AKQlbUeH1rV9-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="30" as="sourcePoint" />
+            <mxPoint x="440" y="-20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="-40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-29" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Data Import&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R4MgnWe8AKQlbUeH1rV9-28">
+          <mxGeometry x="-0.1714" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-33" value="From the OII Monthly KPI perspective, the days away are no longer linked to the Injury/Illness record." style="ellipse;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="630" width="335" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R4MgnWe8AKQlbUeH1rV9-34" value="Due to the Many-to-One relationship between OII Monthly KPI and Injury/Illness. Combining data between objects is susceptible for cross-multiplication." style="ellipse;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="400" y="560" width="229.5" height="160" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
