@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-10-08T13:38:01.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" etag="vYFUmr_cULx_G0U_wxr9" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-10-08T13:52:56.837Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" etag="uEAJJEbpTrT0fDpV7OrF" version="24.5.5" type="github">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
-    <mxGraphModel dx="3693" dy="2212" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2883" dy="1786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -341,10 +341,13 @@
           <mxGeometry x="-820" y="-285" width="660" height="280" as="geometry" />
         </mxCell>
         <mxCell id="MLXNmTqdQTJKfxu_e6-Y-141" value="&lt;div&gt;&amp;nbsp;&lt;div&gt;So ideally, an Auditor would have two application dependent logon locations:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Event Management = Set at their local site&lt;/li&gt;&lt;li&gt;Audit Management = Set at Cluster level.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="50" y="-255" width="430" height="100" as="geometry" />
+          <mxGeometry x="55" y="-310" width="430" height="100" as="geometry" />
         </mxCell>
         <mxCell id="MLXNmTqdQTJKfxu_e6-Y-142" value="&lt;div&gt;A possible solution would be to remove the Logon Location Filter from Audit Management.&amp;nbsp;&lt;/div&gt;&lt;div&gt;This will give Auditors view permission of all global audits.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Management would however like to restrict this access to a cluster level.&lt;/div&gt;&lt;div&gt;This is not possible through security, but there is the possibility to &quot;Mask&quot; Audits outside the Auditors Cluster.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This means that within the inventory of Audits, the Auditor can only see audits within their jurisdiction.&lt;/div&gt;&lt;div&gt;Audits outside their jurisdiction are still accessible for them, but only if they enter the audit specific URL.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The existing Audit tab will show all global audits. This tab will be restricted to higher management (Cluster &amp;amp; Continent H&amp;amp;S managers).&lt;/div&gt;&lt;div&gt;An additional &quot;My Cluster&#39;s Audits&quot; will be created. This tab will show all audits which are within the Auditors Cluster.&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="875" y="-235" width="740" height="170" as="geometry" />
+          <mxGeometry x="750" y="-290" width="740" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="MLXNmTqdQTJKfxu_e6-Y-143" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Effects:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Auditors will no longer have Event Management&amp;nbsp; / Action Access to sites outside their logon location.&lt;/li&gt;&lt;li&gt;Auditors will have &quot;theoretical&quot; access to all audits, but practically only to audits within their cluster.&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Higher Management (Cluster &amp;amp; Continent H&amp;amp;S Managers)&amp;nbsp; can see all Audits.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="790" y="-70" width="600" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
