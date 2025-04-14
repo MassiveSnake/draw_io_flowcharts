@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="24.7.17">
   <diagram name="Page-1" id="1lV17wyQeOZojrkLEhlb">
-    <mxGraphModel dx="1295" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1295" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,10 +13,10 @@
         <mxCell id="ISckfuOA_f6tGfebP-Hw-8" value="Data Model" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="300" y="240" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="ISckfuOA_f6tGfebP-Hw-9" value="Activity Data" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ISckfuOA_f6tGfebP-Hw-8">
+        <mxCell id="ISckfuOA_f6tGfebP-Hw-9" value="Activity Data (A)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ISckfuOA_f6tGfebP-Hw-8">
           <mxGeometry y="30" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ISckfuOA_f6tGfebP-Hw-10" value="&lt;div&gt;Emission Factors&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ISckfuOA_f6tGfebP-Hw-8">
+        <mxCell id="ISckfuOA_f6tGfebP-Hw-10" value="&lt;div&gt;Emission Factors (EF)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ISckfuOA_f6tGfebP-Hw-8">
           <mxGeometry y="60" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ISckfuOA_f6tGfebP-Hw-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.001;entryY=0.616;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="ISckfuOA_f6tGfebP-Hw-1" target="ISckfuOA_f6tGfebP-Hw-9">
@@ -30,12 +30,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ISckfuOA_f6tGfebP-Hw-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.627;exitY=0.93;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ISckfuOA_f6tGfebP-Hw-2" target="ISckfuOA_f6tGfebP-Hw-10">
+        <mxCell id="ISckfuOA_f6tGfebP-Hw-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.319;exitY=0.865;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ISckfuOA_f6tGfebP-Hw-2" target="ISckfuOA_f6tGfebP-Hw-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="390" as="sourcePoint" />
             <mxPoint x="430" y="440" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="490" y="315" />
+              <mxPoint x="450" y="315" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -79,7 +79,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ISckfuOA_f6tGfebP-Hw-26" value="Data Source Questions:&lt;div&gt;- Where do the uncertainties derive from?&lt;/div&gt;&lt;div&gt;- Are Quantities also in SAP activity date?&lt;/div&gt;&lt;div&gt;- How fixed/ constant are the&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;different activities per product?&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="730" y="60" width="240" height="100" as="geometry" />
+          <mxGeometry x="670" y="55" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ISckfuOA_f6tGfebP-Hw-27" value="Activity&lt;div&gt;Recipes&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="260" y="95" width="75" height="50" as="geometry" />
@@ -91,16 +91,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ISckfuOA_f6tGfebP-Hw-29" value="Currently, there is not a real data model.&amp;nbsp;&lt;div&gt;The Excel acts as a data model through&amp;nbsp;&lt;/div&gt;&lt;div&gt;hardcoding of all data queries and connections.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Typically, a data model stores data tables with&amp;nbsp;&lt;/div&gt;&lt;div&gt;hard-coded column types including a unique id per row.&lt;/div&gt;&lt;div&gt;Data connections are subsequently made through&amp;nbsp;&lt;/div&gt;&lt;div&gt;relating the ids of different tables.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="730" y="180" width="320" height="130" as="geometry" />
+          <mxGeometry x="670" y="180" width="320" height="130" as="geometry" />
         </mxCell>
         <mxCell id="ISckfuOA_f6tGfebP-Hw-30" value="The main question is: which data is missing and requires user input?&lt;div&gt;&amp;nbsp;Or is there any other data which the user needs to check?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The reason behind this question,&amp;nbsp;&lt;/div&gt;&lt;div&gt;is that typically you don&#39;t want your calculations to be editable by any user.&lt;/div&gt;&lt;div&gt;You might even want to hide it.&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="730" y="325" width="420" height="100" as="geometry" />
+          <mxGeometry x="670" y="350" width="420" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ISckfuOA_f6tGfebP-Hw-31" value="Who should receive and review the output?&lt;div&gt;Straight to the customer?&amp;nbsp; or filtered?&lt;/div&gt;&lt;div&gt;Is there any sensitive data? with whom may it be shared/ be available to?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Which insights does the customer need?&lt;/div&gt;&lt;div&gt;What would be &quot;Nice-to-have&quot;?&lt;/div&gt;&lt;div&gt;Should the output be send back to one of the client platforms?&lt;/div&gt;&lt;div&gt;Should the output promote actions and activities to improve PCF?&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="730" y="460" width="410" height="130" as="geometry" />
+          <mxGeometry x="670" y="460" width="410" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="ISckfuOA_f6tGfebP-Hw-33" value="&lt;div style=&quot;font-size: 8px;&quot;&gt;General&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;Materials&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;Utilities&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;Other&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="550" y="65" width="75" height="75" as="geometry" />
+        <mxCell id="ISckfuOA_f6tGfebP-Hw-33" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;i&gt;&lt;b&gt;PCF:&lt;/b&gt;&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;i&gt;Per Product&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;i&gt;Per Batch&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;i&gt;Per Type&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;i&gt;Per Country&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;i&gt;Per...&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="480" y="480" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ISckfuOA_f6tGfebP-Hw-34" value="$$\frac{\text{A} \times \text{EF}_1 + \text{A} \times \text{EF}_2 + \text{A} \times \text{EF}_3}{\text{Batch Reference (kg)}}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="380" width="670" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ISckfuOA_f6tGfebP-Hw-35" value="&lt;i&gt;Each Activity&#39;s subcategory is matched to associated Emission Factors&lt;/i&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="240" width="120" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
